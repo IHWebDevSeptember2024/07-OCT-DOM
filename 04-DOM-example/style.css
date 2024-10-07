@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  min-height: 100vh;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+#toggle {
+  width: 300px;
+  height: 300px;
+  transition: 3000ms;
+}
+
+#small-square {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
